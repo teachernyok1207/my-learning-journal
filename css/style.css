@@ -296,6 +296,13 @@ ul {
 
 /* Media Reference */
 
+/* Narrow Screen */
+@media (max-width: 767px) {
+    li:not(:last-child) {
+        border-bottom: 1px dotted #a190b6;
+    } 
+}
+
 /* Mobile Screen */
 @media (max-width: 600px){
     /* Typography */
@@ -326,11 +333,12 @@ ul {
     }
 }
 
-/* Narrow Screen */
-@media (max-width: 767px) {
-    li:not(:last-child) {
-        border-bottom: 1px dotted #a190b6;
-    } 
+/* Narrower Mobile Screen */
+@media (max-width: 380px) {
+    /* Typography */
+    h2{
+        font-size: 2.5vh;
+    }
 }
 
 /* Wider Screen */
