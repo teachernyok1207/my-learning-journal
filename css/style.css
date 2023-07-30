@@ -176,7 +176,6 @@ footer{
     grid-column: 1/4;
     grid-row: 1/1;
     padding-left: 1rem;
-    background-color: rgba(110,114,119,0.5);
     width: auto;
     height: 48vh;
     padding: 1rem;
