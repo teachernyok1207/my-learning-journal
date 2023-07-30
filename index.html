@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Nyoknyok's Learning Journal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="images/android-chrome-192x192.png">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Open+Sans&display=swap" rel="stylesheet">
+        
+        <!-- Apply Fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!-- Website Header -->
+        <header>
+            <div class="container">
+                <!-- Brand -->
+                <div class="navbar-brand">
+                    <a href="index.html"><img src="images/Logo.png" class="site-logo"></a>
+                    <h1>NyokNyok's <span>Journal</span></h1>
+                </div>
+                
+                <!-- Topbar Menu -->
+                <nav>
+                    <ul>
+                        <li><a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+                        <li><a class="nav-link" href="blog.html?front-end-development-blog"><i class="fa-solid fa-marker"></i>&nbsp;Blog</a></li>
+                        <li><a class="nav-link" href="about.html"><i class="fa-solid fa-book-open-reader"></i>&nbsp;About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Blog Posts -->
+        <main>
+            <!-- Featured Image and Title -->
+            <section class="featured-image-div">
+                <img class="featured-image" src="images/featured-image.jpg">
+                
+                <div class="featured-text">
+                    <p class="post-date">July 30, 2023</p>
+                    <h2>MY ULTIMATE GUIDE OF LEARNING FRONT-END DEVELOPMENT</h3>
+                    <p class="post-excerpt">Welcome to the exciting world of front-end development! In this comprehensive learning guide, we will embark on a journey through the fascinating realm of web development, where creativity meets technology.</p>
+                </div>
+            </section>
+            <section id="blog-list">
+                <!-- On this section will display the blog list -->
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <p class="footer-title"><a href="index.html">Nyoknyok's Learning Journal</a></p>
+            <p class="footer-copyright">Copyright © 2023</p>
+        </footer>
+        
+        <!-- Calling JS -->
+        <script src="js/index.js" type="module"></script>
+    </body>
+</html>
